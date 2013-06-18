@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.04.1
-Release:          1
+Release:          2
 Summary:          Political Science Computational Laboratory, Stanford University
 Group:            Sciences/Mathematics
 License:          GPL-2
