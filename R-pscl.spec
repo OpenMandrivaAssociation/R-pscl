@@ -2,18 +2,19 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.04.1
-Release:          2
+Version:          1.04.4
+Release:          1
 Summary:          Political Science Computational Laboratory, Stanford University
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-MASS R-stats R-mvtnorm R-coda R-gam R-vcd R-lattice
-Requires:         R-MCMCpack R-car R-lmtest R-sandwich R-zoo
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-MASS R-stats R-mvtnorm R-coda R-gam R-vcd R-lattice
-BuildRequires:    R-MCMCpack R-car R-lmtest R-sandwich R-zoo
+Source0:          http://cran.r-project.org/src/contrib/pscl_1.04.4.tar.gz
+Requires:         R-MASS R-stats R-mvtnorm R-coda R-gam R-vcd 
+Requires:         R-lattice 
+Requires:         R-MCMCpack R-car R-lmtest R-sandwich R-zoo 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-MASS R-stats R-mvtnorm R-coda R-gam R-vcd
+BuildRequires:    R-lattice 
+BuildRequires:    R-MCMCpack R-car R-lmtest R-sandwich R-zoo 
 BuildRequires:    blas-devel
 BuildRequires:    lapack-devel
 
@@ -52,3 +53,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
