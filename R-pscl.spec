@@ -7,7 +7,7 @@ Release:          1
 Summary:          Political Science Computational Laboratory, Stanford University
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/pscl_1.04.4.tar.gz
 Requires:         R-MASS R-stats R-mvtnorm R-coda R-gam R-vcd 
 Requires:         R-lattice 
